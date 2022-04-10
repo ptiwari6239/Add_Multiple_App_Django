@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>hye {{name}} ,Enter any number !!</h1>
+<form action ="multiple" method = 'POST'>
+{% csrf_token %}
+    for multiple<br>
+    Enter 1st num = <input type ="text" name = "num1"><br>
+    Enter 2nd num = <input type ="text" name = "num2"><br>
+    <input type ="submit">
+</form>
+<form action ="add" method = "POST">
+    {% csrf_token %}
+    for add<br>
+    Enter 1st num = <input type ="text" name = "nu1"><br>
+    Enter 2nd num = <input type ="text" name = "nu2"><br>
+    <input type ="submit">
+    
+
+</form>
+{% endblock %}
