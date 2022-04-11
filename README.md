@@ -7,7 +7,7 @@
 Django is a Python-based free and open-source web framework that follows the model–template–views architectural pattern
 
 
-## To Install  This Is Django !!
+## To Install   Django !!
 
 
 #### sudo apt-get update
